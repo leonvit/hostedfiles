@@ -19,7 +19,6 @@ from tensorflow.compat.v1 import InteractiveSession
 config = ConfigProto()
 config.gpu_options.allow_growth = True
 session = InteractiveSession(config=config)
-After that the projct will be up and running
 from utils import *
 import sys
 
